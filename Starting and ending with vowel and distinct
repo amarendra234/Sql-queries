@@ -1,1 +1,5 @@
 select Distinct CITY from station where CITY REGEXP '^[aeiou].*[aeiou]$' ;
+
+///  not starting with vowel and distinct
+'''select distinct city from station
+where city not regexp '^[aeiou]';'''
